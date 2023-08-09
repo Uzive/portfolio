@@ -35,7 +35,7 @@ const Projects = () => {
             src="/epcr.jpg"
             className="w-100" alt='project3'/>
           <h1>EPCR</h1>
-          <p>Alerts you when there's an emerrgency</p>
+          <p>Alerts you when there's an emergency</p>
         </div>
       </div>
     </div>
