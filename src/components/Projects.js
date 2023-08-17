@@ -9,9 +9,12 @@ const Projects = () => {
         <div
           className="bg-image hover-overlay ripple shadow-1-strong rounded"
           data-ripple-color="light">
-          <img
-            src="/portal.jpg"
-            className="w-100" alt='project2'/>
+          <a href='https://github.com/Uzive'>
+            <img
+              src="/portal.jpg"
+              className="w-100" alt='project2' style={{height:200, objectFit: 'cover'}} />
+          </a>
+          
           <h1>Portal</h1>
           <p>Student Portal for UPang Students</p>
         </div>
@@ -20,9 +23,11 @@ const Projects = () => {
           <div
             className="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light">
-            <img
-              src="/anime_list.jpg"
-              className="w-100" alt='project1'/>
+            <a href='https://github.com/Uzive'>
+              <img
+                src="/anime_list.jpg"
+                className="w-100" alt='project1' style={{height:200, objectFit: 'cover', }}/>
+            </a>
             <h1>MyAnimeList</h1>
             <p>Allows you to create your own anime list</p>
           </div>
@@ -31,9 +36,11 @@ const Projects = () => {
         <div
           className="bg-image hover-overlay ripple shadow-1-strong rounded"
           data-ripple-color="light">
-          <img
-            src="/epcr.jpg"
-            className="w-100" alt='project3'/>
+             <a href='https://github.com/Uzive'>
+              <img
+              src="/epcr.jpg"
+              className="w-100" alt='project3' style={{height:200, objectFit: 'cover'}}/>
+             </a>
           <h1>EPCR</h1>
           <p>Alerts you when there's an emergency</p>
         </div>

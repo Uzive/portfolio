@@ -24,7 +24,7 @@ const Home = () => {
                     <h1 className='display-1 fw-bold'>
                       John Dioquino
                     </h1>
-                    <h3 className='display-6 fw-semibold'>Aspiring Web Devploper</h3>
+                    <h3 className='display-6 fw-semibold'>Aspiring Web Developer</h3>
                     <hr />
                     <p>
                       A 20 year's old BSIT Student studying in PHINMA University of Pangasinan
