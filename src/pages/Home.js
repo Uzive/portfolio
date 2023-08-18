@@ -9,7 +9,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Home = () => {
   return (
-    <section>
+    <>
+       <Container className='hero'>
        <AnimatePresence>
           <motion.div
             initial={{ opacity:0, y:15}}
@@ -36,7 +37,6 @@ const Home = () => {
                       <SocialLinks />
                     </div>
                   </Container>
-                  
               </Col>
             </Row>
         </motion.div>
@@ -89,7 +89,7 @@ const Home = () => {
           initial={{ opacity: 0, y:15}}
           whileInView={{ opacity: 1, y:0}}
           transition={{delay:1}}>
-          <div className='d-flex flex-column justify-content-center align-items-center text-center'>
+          <div className='d-flex flex-column justify-content-center align-items-center text-center py-5'>
             <h1 className='display-1 fw-bold'>Contact Me</h1>
             <p>These are my socials where you can ask me if you have any question 
               Feel free to contact me!.
@@ -98,7 +98,8 @@ const Home = () => {
           </div>
       </motion.div>
       </AnimatePresence>
-    </section>
+       </Container>
+    </>
   );
 };
 
